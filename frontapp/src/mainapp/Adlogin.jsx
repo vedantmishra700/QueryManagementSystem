@@ -55,7 +55,7 @@ const Adlogin = () => {
                 <input className='form-control border-2 border-primary' value={email} onChange={(e) => setEmail(e.target.value)} type='email' name='email'/>
                 <br/>
                 <b>Enter Your Password:</b>
-                <input className='form-control border-2 border-primary' type='text' value={password} onChange={(e) => setPassword(e.target.value)} name='password'/>
+                <input className='form-control border-2 border-primary' type='password' value={password} onChange={(e) => setPassword(e.target.value)} name='password'/>
                 <br/>
                 <button className='form-control btn btn-primary mb-3' type="submit"> <b>Submit</b></button>
             </form>

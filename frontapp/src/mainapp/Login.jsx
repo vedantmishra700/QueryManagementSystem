@@ -51,7 +51,7 @@ const Login = () => {
                 <input className='form-control border-2 border-danger' value={email} onChange={(e) => setEmail(e.target.value)} type='email' name='email'/>
                 <br/>
                 <b>Enter Your Password:</b>
-                <input className='form-control border-2 border-danger' type='text' value={password} onChange={(e) => setPassword(e.target.value)} name='password'/>
+                <input className='form-control border-2 border-danger' type='password' value={password} onChange={(e) => setPassword(e.target.value)} name='password'/>
                 <br/>
                 <button className='form-control btn btn-danger mb-3' type="submit"> <b>Submit</b></button>
 
